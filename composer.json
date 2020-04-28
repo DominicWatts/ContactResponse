@@ -3,18 +3,25 @@
     "description": "Magento 2 Contact Us form response email",
     "type": "magento2-module",
     "license": "proprietary",
+    "version": "1.0.0",
     "authors": [
         {
-            "email": "info@mage2gen.com",
-            "name": "Mage2Gen"
-        },
-        {
-            "email": "xigen.dominic@gmail.com",
+            "email": "dominic@xigen.co.uk",
             "name": "Dominic Xigen"
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    ],
+    "require": {
+        "magento/framework": "*",
+        "php": ">=7.0.0",
+        "magento/module-contact": "*"
+    },
     "autoload": {
         "files": [
             "registration.php"
