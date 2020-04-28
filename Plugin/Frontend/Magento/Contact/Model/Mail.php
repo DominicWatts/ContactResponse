@@ -4,15 +4,12 @@ declare(strict_types=1);
 
 namespace Xigen\ContactResponse\Plugin\Frontend\Magento\Contact\Model;
 
-use Magento\Framework\Mail\Template\TransportBuilder;
-use Magento\Framework\Translate\Inline\StateInterface;
-use Magento\Framework\App\Action\Context;
-use Xigen\ContactResponse\Helper\Email;
-use Magento\Framework\App\Helper\AbstractHelper;
-use Magento\Store\Model\StoreManagerInterface;
-use Magento\Framework\App\Config\ScopeConfigInterface;
 use Magento\Contact\Model\ConfigInterface;
 use Magento\Framework\App\Area;
+use Magento\Framework\Mail\Template\TransportBuilder;
+use Magento\Framework\Translate\Inline\StateInterface;
+use Magento\Store\Model\StoreManagerInterface;
+use Xigen\ContactResponse\Helper\Email;
 
 class Mail
 {
