@@ -1,6 +1,6 @@
 # Magento 2 Contact Response
 
-Response email yes/ no field in admin with email template config. This toggles an automated response to contact us submission.
+Response email yes / no field in admin with email template config. This toggles an automated response to contact us submission.
 
 # Install instructions #
 

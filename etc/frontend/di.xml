@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Contact\Model\Mail">
+        <plugin disabled="false" name="Xigen_ContactResponse_Plugin_Frontend_Magento_Contact_Model_Mail" sortOrder="10" type="Xigen\ContactResponse\Plugin\Frontend\Magento\Contact\Model\Mail"/>
+    </type>
+</config>

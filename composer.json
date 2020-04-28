@@ -1,0 +1,26 @@
+{
+    "name": "xigen/module-contactresponse",
+    "description": "Magento 2 Contact Us form response email",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "info@mage2gen.com",
+            "name": "Mage2Gen"
+        },
+        {
+            "email": "xigen.dominic@gmail.com",
+            "name": "Dominic Xigen"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Xigen\\ContactResponse\\": ""
+        }
+    }
+}

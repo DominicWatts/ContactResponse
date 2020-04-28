@@ -1,0 +1,20 @@
+<!--@subject {{trans "Thanks for getting in touch"}} @-->
+<!--@vars {
+"var data.comment":"Comment",
+"var data.email":"Sender Email",
+"var data.name":"Sender Name",
+"var data.telephone":"Sender Telephone",
+} @-->
+
+{{template config_path="design/email/header_template"}}
+
+<table class="message-details">
+    <tr>
+        <td>Thanks for reaching out to us {{var data.name}}</strong></td>
+    </tr>
+    <tr>
+        <td>One of the team will be in touch soon.</td>
+    </tr>
+</table>
+
+{{template config_path="design/email/footer_template"}}
