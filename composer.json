@@ -1,5 +1,5 @@
 {
-    "name": "xigen/module-contactresponse",
+    "name": "dominicwatts/contactresponse",
     "description": "Magento 2 Contact Us form response email",
     "type": "magento2-module",
     "license": "proprietary",
