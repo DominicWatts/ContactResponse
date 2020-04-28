@@ -11,4 +11,4 @@ jobs:
       with:
         args: install --prefer-dist --no-dev --ignore-platform-reqs
     - name: PHPStan
-      run: docker run --rm -v $PWD:/code domw/phpstan analyze ./
+      run: docker run --rm -v $PWD:/code domw/phpstan phpstan analyze ./
