@@ -1,5 +1,11 @@
 # Magento 2 Contact Response
 
+![phpcs](https://github.com/DominicWatts/ContactResponse/workflows/phpcs/badge.svg)
+
+![PHPCompatibility](https://github.com/DominicWatts/ContactResponse/workflows/PHPCompatibility/badge.svg)
+
+![PHPStan](https://github.com/DominicWatts/ContactResponse/workflows/PHPStan/badge.svg)
+
 Response email yes / no field in admin with email template config. This toggles an automated response to contact us submission.
 
 # Install instructions #
