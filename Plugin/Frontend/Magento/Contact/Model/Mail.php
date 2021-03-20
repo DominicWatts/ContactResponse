@@ -94,10 +94,7 @@ class Mail
                     ]
                 )
                 ->setTemplateVars($replyTo)
-                ->setFrom([
-                    'email' => $this->contactsConfig->emailRecipient(),
-                    'name' => $this->contactsConfig->emailSender()
-                ])
+                ->setFromByScope($this->contactsConfig->emailSender())
                 ->addTo($replyToEmail)
                 ->setReplyTo(
                     $this->contactsConfig->emailRecipient(),
