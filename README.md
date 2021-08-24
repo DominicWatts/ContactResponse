@@ -6,6 +6,8 @@
 
 ![PHPStan](https://github.com/DominicWatts/ContactResponse/workflows/PHPStan/badge.svg)
 
+![php-cs-fixer](https://github.com/DominicWatts/ContactResponse/workflows/php-cs-fixer/badge.svg)
+
 Response email yes / no field in admin with email template config. This toggles an automated response to contact us submission.
 
 # Install instructions #

@@ -1,12 +1,11 @@
 <?php
 
-
 namespace Xigen\ContactResponse\Helper;
 
+use Magento\Framework\App\Config\ScopeConfigInterface;
 use Magento\Framework\App\Helper\AbstractHelper;
 use Magento\Framework\App\Helper\Context;
 use Magento\Store\Model\StoreManagerInterface;
-use Magento\Framework\App\Config\ScopeConfigInterface;
 
 /**
  * Xigen ContactResponse Email helper class

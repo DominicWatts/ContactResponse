@@ -82,7 +82,7 @@ class Mail
 
         // $this->contactsConfig->emailSender(); string
         // $this->contactsConfig->emailRecipient(); email
-        
+
         $this->inlineTranslation->suspend();
         try {
             $transport = $this->transportBuilder
